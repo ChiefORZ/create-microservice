@@ -1,0 +1,21 @@
+{
+  "name": "my-microservice",
+  "version": "0.0.1",
+  "description": "my microservice",
+  "author": "",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev"
+  },
+  "dependencies": {
+    "glob": "^7.1.1",
+    "micro": "^8.0.1"
+  },
+  "devDependencies": {
+    "async-to-gen": "^1.3.3",
+    "micro-dev": "^1.1.1"
+  }
+}

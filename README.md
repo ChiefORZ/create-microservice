@@ -18,27 +18,27 @@ The easiest way to create a [micro](https://github.com/zeit/micro) service.
 
 ... then inside the container ...
 
-> - \# install git and curl
-> - apk update
-> - apk upgrade
-> - apk add git curl
-> - \# setup project
-> - cd
-> - git clone /repo
-> - cd repo
-> - ls
-> - export PATH=$(npm bin):$PATH
-> - npm i
+> > - \# install git and curl
+> > - apk update
+> > - apk upgrade
+> > - apk add git curl
+> > - \# setup project
+> > - cd
+> > - git clone /repo
+> > - cd repo
+> > - ls
+> > - export PATH=$(npm bin):$PATH
+> > - npm i
 
 ... server will fail until transpiled ...
 
-> - \# prove service does not work
-> - npm start
-> - \# transpile async/await in index.js
-> - mv routes src-routes
-> - async-to-gen --out-dir routes/ src-routes/
-> - \# now start again in background
-> - npm start &
+> > - \# prove service does not work
+> > - npm start
+> > - \# transpile async/await in index.js
+> > - mv routes src-routes
+> > - async-to-gen --out-dir routes/ src-routes/
+> > - \# now start again in background
+> > - npm start &
 
 ... then wait for service to start ...
 
@@ -51,8 +51,4 @@ The easiest way to create a [micro](https://github.com/zeit/micro) service.
 > - curl -w '\n' localhost:3000 -X INVALIDMETHOD
 > - curl -w '\n' localhost:3000/invalidpath
 
-<style>
-body { font-family: sans-serif; }
-blockquote ul { font-family: monospace; color: purple; list-style-type: none; margin: 0; padding: 0; margin-left: -1em; }
-blockquote li:before { content: '▲ '; }
-</style>
+<link rel='stylesheet' type='text/css' href='readme.css' />

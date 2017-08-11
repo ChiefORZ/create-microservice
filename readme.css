@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+}
+
+blockquote ul {
+  font-family: monospace;
+  color: purple;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: -1em;
+}
+
+blockquote blockquote ul {
+ margin-left: -4em;
+}
+
+blockquote li:before {
+  content: '▲ ';
+  color: black;
+  font-weight: bold;
+}
+
+blockquote blockquote li:before {
+  content: '$ ';
+}

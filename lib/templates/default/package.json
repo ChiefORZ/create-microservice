@@ -5,16 +5,15 @@
   "author": "",
   "keywords": [],
   "license": "ISC",
-  "main": "src/loader.js",
+  "main": "loader/loader.js",
   "scripts": {
     "server": "micro",
     "dev": "micro-dev",
     "start": "npm run $(node -p \"process.env.NODE_ENV === 'production' ? 'server' : 'dev'\")"
   },
   "dependencies": {
-    "async-to-gen": "^1.3.3",
     "@std/esm": "^0.2.1",
-    "glob": "^7.1.1",
+    "async-to-gen": "^1.3.3",
     "micro": "^8.0.1"
   },
   "devDependencies": {

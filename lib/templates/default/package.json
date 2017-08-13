@@ -23,5 +23,10 @@
   "@std/esm": {
     "esm": "js",
     "cjs": true
+  },
+  "now": {
+    "env": {
+      "NODE_ENV": "production"
+    }
   }
 }

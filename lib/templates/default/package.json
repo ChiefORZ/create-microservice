@@ -7,9 +7,8 @@
   "license": "ISC",
   "main": "loader/loader.js",
   "scripts": {
-    "server": "micro",
     "dev": "micro-dev",
-    "start": "npm run $(node -p \"process.env.NODE_ENV === 'production' ? 'server' : 'dev'\")"
+    "start": "micro"
   },
   "dependencies": {
     "@std/esm": "^0.2.1",

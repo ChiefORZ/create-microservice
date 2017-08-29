@@ -14,10 +14,10 @@
     "@std/esm": "^0.2.1",
     "async-to-gen": "^1.3.3",
     "fs-route": "0.0.1",
-    "micro": "^8.0.1"
+    "micro": "latest"
   },
   "devDependencies": {
-    "micro-dev": "^1.1.1"
+    "micro-dev": "latest"
   },
   "@std/esm": {
     "esm": "js",

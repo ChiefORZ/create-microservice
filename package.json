@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "create-microservice": "./bin/create-microservice"
+    "create-microservice": "./bin/create-microservice.js"
   },
   "repository": "billymoon/create-microservice",
   "scripts": {

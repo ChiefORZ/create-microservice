@@ -1,0 +1,19 @@
+{
+  "extends": ["airbnb-base", "prettier"],
+  "rules": {
+    "arrow-body-style": [0, "as-needed"],
+    "arrow-parens": [2, "as-needed", { "requireForBlockBody": false }],
+    "import/first": 0,
+    "import/no-commonjs": 2,
+    "no-mixed-operators": 0,
+    "no-plusplus": 0,
+    "max-len": 0,
+    "linebreak-style": 0,
+    "sort-imports": [2, {
+      "ignoreCase": false,
+      "ignoreMemberSort": false,
+      "memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
+    }],
+    "space-before-function-paren": [2, "never"]
+  }
+}

@@ -1,12 +1,11 @@
 {
   "name": "create-microservice",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "",
   "main": "index.js",
   "bin": {
     "create-microservice": "./bin/create-microservice.js"
   },
-  "repository": "billymoon/create-microservice",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
